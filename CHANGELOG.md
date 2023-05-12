@@ -1,3 +1,9 @@
+# [1.0.0](https://e.coding.net/soul-coder/github/eslint-config/compare/v0.0.1...v1.0.0) (2023-05-12)
+
+### Features
+
+-   global process ([7969f04](https://e.coding.net/soul-coder/github/eslint-config/commits/7969f04d9cb762ad08a2945da5c8ec66db200fc0))
+
 ## 0.0.1 (2023-05-12)
 
 ### Features
