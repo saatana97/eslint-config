@@ -12,6 +12,5 @@
     "arrowParens": "always",
     "htmlWhitespaceSensitivity": "ignore",
     "vueIndentScriptAndStyle": true,
-    "endOfLine": "auto",
-    "eqeqeq": true
+    "endOfLine": "auto"
 }

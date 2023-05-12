@@ -1,11 +1,8 @@
 ## 0.0.1 (2023-05-12)
 
-
 ### Features
 
-* eslint shared config ([d8a5b7e](https://e.coding.net/soul-coder/github/eslint-config/commits/d8a5b7ed0f7f8e8e3a665cc8790891f3c11dd37a))
-
-
+-   eslint shared config ([d8a5b7e](https://e.coding.net/soul-coder/github/eslint-config/commits/d8a5b7ed0f7f8e8e3a665cc8790891f3c11dd37a))
 
 # 1.0.0 (2023-05-12)
 

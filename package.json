@@ -24,18 +24,17 @@
         ".": {
             "require": "./dist/index.cjs"
         },
-        "./vue":"./dist/vue.cjs"
+        "./vue": "./dist/vue.cjs"
     },
     "scripts": {
         "build": "tsc && vite build",
         "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
         "release": "bumpp package.json --commit \"release: v%s\" --push --all --tag && pnpm run build && pnpm publish --access public",
-        "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix --ignore-path .gitignore",
-        "prettier": "prettier --write ./**/*.{ts,tsx,js,jsx,css,json,md}",
+        "prettier": "prettier --write ./**/*.{js,jsx,ts,tsx,vue,html,css,less,json,md}",
         "prepare": "husky install"
     },
     "peerDependencies": {
-        "eslint":"^8.0.0"
+        "eslint": "^8.0.0"
     },
     "dependencies": {
         "@typescript-eslint/eslint-plugin": "^5.54.0",
@@ -58,11 +57,7 @@
         "vite": "^4.0.0"
     },
     "lint-staged": {
-        "*.{js,jsx,ts,tsx,vue}": [
-            "npm run lint",
-            "npm run prettier"
-        ],
-        "*.{html,css,less,md}": [
+        "*.{js,jsx,ts,tsx,vue,html,css,less,json,md}": [
             "npm run prettier"
         ]
     }
