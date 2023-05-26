@@ -7,8 +7,8 @@
 # 安装
 
 ```
-npm install --save-dev @saatana97/eslint-config
-pnpm add --save-dev @saatana97/eslint-config
+npm install --save-dev @xwink/eslint-config
+pnpm add --save-dev @xwink/eslint-config
 ```
 
 # 使用
@@ -16,10 +16,10 @@ pnpm add --save-dev @saatana97/eslint-config
 ```typescript
 // .eslintrc
 {
-    "extends": "@saatana97/eslint-config"
+    "extends": "@xwink/eslint-config"
 }
 // in vue projects
 {
-    "extends": "@saatana97/eslint-config/vue"
+    "extends": "@xwink/eslint-config/vue"
 }
 ```

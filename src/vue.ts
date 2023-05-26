@@ -8,7 +8,13 @@ export default {
     parserOptions: {
         ecmaVersion: 'latest',
     },
+    env: {
+        browser: true,
+        node: true,
+        es6: true,
+    },
     rules: {
+        '@typescript-eslint/no-non-null-assertion': 'off',
         'prettier/prettier': 'warn',
         eqeqeq: [2, 'always'],
         'no-alert': 'warn',

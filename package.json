@@ -1,17 +1,16 @@
 {
-    "name": "@saatana97/eslint-config",
+    "name": "@xwink/eslint-config",
     "version": "1.0.0",
     "keywords": [
         "wink",
-        "xwk",
         "eslint",
         "eslint-config",
         "typescript"
     ],
     "author": {
         "name": "向文可",
-        "email": "1041367524@qq.com",
-        "url": "https://github.com/saatana97"
+        "email": "13202090601@163.com",
+        "url": "https://github.com/x-wink"
     },
     "private": false,
     "files": [

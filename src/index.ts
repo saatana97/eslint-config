@@ -10,8 +10,10 @@ export default {
     env: {
         browser: true,
         node: true,
+        es6: true,
     },
     rules: {
+        '@typescript-eslint/no-non-null-assertion': 'off',
         'prettier/prettier': 'warn',
         'no-alert': 'warn',
         'no-debugger': 'warn',
