@@ -13,6 +13,10 @@ export default {
         es6: true,
     },
     rules: {
+        '@typescript-eslint/consistent-type-imports': 'warn',
+        '@typescript-eslint/consistent-type-exports': 'warn',
+        '@typescript-eslint/no-import-type-side-effects': 'warn',
+        '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/no-non-null-assertion': 'off',
         'prettier/prettier': 'warn',
         'no-alert': 'warn',

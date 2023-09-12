@@ -14,6 +14,10 @@ export default {
         es6: true,
     },
     rules: {
+        '@typescript-eslint/consistent-type-imports': 'warn',
+        '@typescript-eslint/consistent-type-exports': 'warn',
+        '@typescript-eslint/no-import-type-side-effects': 'warn',
+        '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/no-non-null-assertion': 'off',
         'prettier/prettier': 'warn',
         eqeqeq: [2, 'always'],
@@ -21,7 +25,7 @@ export default {
         'no-debugger': 'warn',
         'no-undef': 'error',
         'no-else-return': 'error',
-        'no-console': 'off',
+        'no-console': 'warn',
         'vue/no-v-html': 'off',
         'vue/html-self-closing': [
             'warn',
@@ -95,6 +99,30 @@ export default {
                 alphabetical: true,
             },
         ],
+        'vue/no-side-effects-in-computed-properties': 'error',
+        'vue/valid-next-tick': 'error',
+        'vue/prefer-import-from-vue': 'warn',
+        'vue/attribute-hyphenation': 'warn',
+        'vue/component-definition-name-casing': 'warn',
+        'vue/prop-name-casing': 'warn',
+        'vue/require-prop-types': 'error',
+        'vue/v-on-event-hyphenation': [
+            'warn',
+            'always',
+            {
+                autofix: true,
+                ignore: [],
+            },
+        ],
+        'vue/this-in-template': 'error',
+        'vue/block-order': [
+            'error',
+            {
+                order: [['template', 'script'], 'style'],
+            },
+        ],
+        'vue/component-name-in-template-casing': 'warn',
+        'vue/custom-event-name-casing': 'warn',
     },
     globals: {
         process: 'readonly',
