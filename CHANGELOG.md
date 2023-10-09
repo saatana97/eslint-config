@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/x-wink/eslint-config/compare/v1.0.2...v1.0.3) (2023-10-09)
+
+### Bug Fixes
+
+-   remove tsconfigRootDir ([fbc5f03](https://github.com/x-wink/eslint-config/commit/fbc5f03e3da1e312f0877f34cfe76197a5456009))
+
 ## [1.0.2](https://github.com/x-wink/eslint-config/compare/v1.0.1...v1.0.2) (2023-10-09)
 
 ### Performance Improvements
