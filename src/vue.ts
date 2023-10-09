@@ -8,7 +8,6 @@ export default {
     ],
     parserOptions: {
         project: true,
-        tsconfigRootDir: __dirname,
     },
     env: {
         browser: true,
