@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/x-wink/eslint-config/compare/v1.0.1...v1.0.2) (2023-10-09)
+
+### Performance Improvements
+
+-   upgrade deps and perf config ([d395b84](https://github.com/x-wink/eslint-config/commit/d395b84861e180e42aff82cbfb08ab402fa42eaa))
+
 ## [1.0.1](https://github.com/x-wink/eslint-config/compare/v1.0.0...v1.0.1) (2023-09-12)
 
 ### Features
