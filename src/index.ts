@@ -1,11 +1,15 @@
+require('@rushstack/eslint-patch/modern-module-resolution');
 export default {
-    extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
-    parser: '@typescript-eslint/parser',
+    extends: [
+        'eslint:recommended',
+        'plugin:@typescript-eslint/recommended-type-checked',
+        'plugin:@typescript-eslint/stylistic-type-checked',
+    ],
     plugins: ['@typescript-eslint', 'prettier'],
+    parser: '@typescript-eslint/parser',
     parserOptions: {
-        ecmaVersion: 'latest',
-        parser: '@typescript-eslint/parser',
-        sourceType: 'module',
+        project: true,
+        tsconfigRootDir: __dirname,
     },
     env: {
         browser: true,

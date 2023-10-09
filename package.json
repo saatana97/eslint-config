@@ -9,7 +9,7 @@
     ],
     "author": {
         "name": "向文可",
-        "email": "13202090601@163.com",
+        "email": "1041367524@qq.com",
         "url": "https://github.com/x-wink"
     },
     "private": false,
@@ -36,16 +36,18 @@
         "eslint": "^8.0.0"
     },
     "dependencies": {
-        "@typescript-eslint/eslint-plugin": "^5.54.0",
-        "@typescript-eslint/parser": "^5.54.0",
+        "@rushstack/eslint-patch": "^1.5.1",
+        "@typescript-eslint/eslint-plugin": "^6.7.4",
+        "@typescript-eslint/parser": "^6.7.4",
         "@vue/eslint-config-prettier": "^7.1.0",
-        "@vue/eslint-config-typescript": "^11.0.3",
+        "@vue/eslint-config-typescript": "^12.0.0",
         "eslint-plugin-prettier": "^4.2.1",
         "eslint-plugin-vue": "^9.12.0"
     },
     "devDependencies": {
         "@commitlint/cli": "^17.4.1",
         "@commitlint/config-conventional": "^17.4.0",
+        "@types/node": "^20.8.3",
         "bumpp": "^9.1.0",
         "conventional-changelog-cli": "^2.2.2",
         "husky": "^8.0.3",
