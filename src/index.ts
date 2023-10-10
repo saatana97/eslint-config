@@ -1,11 +1,10 @@
-require('@rushstack/eslint-patch/modern-module-resolution');
 export default {
     extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended-type-checked',
         'plugin:@typescript-eslint/stylistic-type-checked',
+        'plugin:prettier/recommended',
     ],
-    plugins: ['@typescript-eslint', 'prettier'],
     parser: '@typescript-eslint/parser',
     parserOptions: {
         project: true,

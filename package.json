@@ -33,16 +33,16 @@
         "prepare": "husky install"
     },
     "peerDependencies": {
-        "eslint": "^8.0.0"
+        "eslint": "^8.0.0",
+        "prettier": "^2.7.1"
     },
     "dependencies": {
-        "@rushstack/eslint-patch": "^1.5.1",
         "@typescript-eslint/eslint-plugin": "^6.7.4",
         "@typescript-eslint/parser": "^6.7.4",
         "@vue/eslint-config-prettier": "^7.1.0",
         "@vue/eslint-config-typescript": "^12.0.0",
-        "eslint-plugin-prettier": "^4.2.1",
-        "eslint-plugin-vue": "^9.12.0"
+        "eslint-plugin-prettier": "^5.0.0",
+        "eslint-plugin-vue": "^9.17.0"
     },
     "devDependencies": {
         "@commitlint/cli": "^17.4.1",

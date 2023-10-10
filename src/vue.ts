@@ -1,13 +1,20 @@
-require('@rushstack/eslint-patch/modern-module-resolution');
 export default {
     extends: [
         'eslint:recommended',
-        'plugin:vue/vue3-essential',
+        'plugin:vue/vue3-recommended',
         '@vue/eslint-config-typescript/recommended',
         '@vue/eslint-config-prettier',
+        'plugin:prettier/recommended',
     ],
+    parser: 'vue-eslint-parser',
     parserOptions: {
-        project: true,
+        // project: true,
+        parser: '@typescript-eslint/parser',
+        ecmaFeatures: {
+            jsx: true,
+        },
+        ecmaVersion: 'latest',
+        sourceType: 'module',
     },
     env: {
         browser: true,
@@ -15,10 +22,10 @@ export default {
         es6: true,
     },
     rules: {
-        '@typescript-eslint/consistent-type-imports': 'warn',
-        '@typescript-eslint/consistent-type-exports': 'warn',
-        '@typescript-eslint/no-import-type-side-effects': 'warn',
-        '@typescript-eslint/explicit-function-return-type': 'off',
+        // '@typescript-eslint/consistent-type-imports': 'warn',
+        // '@typescript-eslint/consistent-type-exports': 'warn',
+        // '@typescript-eslint/no-import-type-side-effects': 'warn',
+        // '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/no-non-null-assertion': 'off',
         'prettier/prettier': 'warn',
         eqeqeq: [2, 'always'],
