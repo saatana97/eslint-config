@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/x-wink/eslint-config/compare/v1.0.4...v1.1.0) (2023-10-10)
+
+### Performance Improvements
+
+-   remove project ([16adc08](https://github.com/x-wink/eslint-config/commit/16adc0883217156c44afd528b9dce93cf69dd836))
+
 ## [1.0.4](https://github.com/x-wink/eslint-config/compare/v1.0.3...v1.0.4) (2023-10-10)
 
 ## [1.0.3](https://github.com/x-wink/eslint-config/compare/v1.0.2...v1.0.3) (2023-10-09)
