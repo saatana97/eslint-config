@@ -1,10 +1,11 @@
+import ts from './index';
 export default {
     extends: [
-        'eslint:recommended',
+        ...ts.extends,
         'plugin:vue/vue3-recommended',
+        'plugin:prettier/recommended',
         '@vue/eslint-config-typescript/recommended',
         '@vue/eslint-config-prettier',
-        'plugin:prettier/recommended',
     ],
     parser: 'vue-eslint-parser',
     parserOptions: {
@@ -15,23 +16,9 @@ export default {
         ecmaVersion: 'latest',
         sourceType: 'module',
     },
-    env: {
-        browser: true,
-        node: true,
-        es6: true,
-    },
+    env: ts.env,
     rules: {
-        '@typescript-eslint/consistent-type-imports': 'warn',
-        '@typescript-eslint/no-import-type-side-effects': 'warn',
-        '@typescript-eslint/explicit-function-return-type': 'off',
-        '@typescript-eslint/no-non-null-assertion': 'off',
-        'prettier/prettier': 'warn',
-        eqeqeq: [2, 'always'],
-        'no-alert': 'warn',
-        'no-debugger': 'warn',
-        'no-undef': 'error',
-        'no-else-return': 'error',
-        'no-console': 'warn',
+        ...ts.rules,
         'vue/no-v-html': 'off',
         'vue/html-self-closing': [
             'warn',
@@ -131,8 +118,7 @@ export default {
         'vue/custom-event-name-casing': 'warn',
     },
     globals: {
-        process: 'readonly',
-        arguments: 'readonly',
+        ...ts.globals,
         defineModel: 'readonly',
     },
 };
