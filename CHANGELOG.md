@@ -1,3 +1,9 @@
+## [1.1.1-beta.0](https://github.com/x-wink/eslint-config/compare/v1.1.0...v1.1.1-beta.0) (2023-11-04)
+
+### Bug Fixes
+
+-   upgrade deps ([d3408a5](https://github.com/x-wink/eslint-config/commit/d3408a593c2add003f2628e7371ff6171faafb05))
+
 # [1.1.0](https://github.com/x-wink/eslint-config/compare/v1.0.4...v1.1.0) (2023-10-10)
 
 ### Performance Improvements
