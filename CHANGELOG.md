@@ -1,3 +1,9 @@
+## [1.1.1-beta.1](https://github.com/x-wink/eslint-config/compare/v1.1.1-beta.0...v1.1.1-beta.1) (2023-11-04)
+
+### Features
+
+-   project true ([3a24c2f](https://github.com/x-wink/eslint-config/commit/3a24c2f0e7e4a8cb4165a4febc3e559f9ac960fc))
+
 ## [1.1.1-beta.0](https://github.com/x-wink/eslint-config/compare/v1.1.0...v1.1.1-beta.0) (2023-11-04)
 
 ### Bug Fixes
