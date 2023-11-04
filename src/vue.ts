@@ -9,6 +9,7 @@ export default {
     ],
     parser: 'vue-eslint-parser',
     parserOptions: {
+        ...ts.parserOptions,
         parser: '@typescript-eslint/parser',
         ecmaFeatures: {
             jsx: true,

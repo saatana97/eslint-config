@@ -6,6 +6,9 @@ export default {
         'plugin:prettier/recommended',
     ],
     parser: '@typescript-eslint/parser',
+    parserOptions: {
+        project: true,
+    },
     env: {
         browser: true,
         node: true,
