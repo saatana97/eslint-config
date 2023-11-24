@@ -1,6 +1,6 @@
 # 😉 欢迎使用我的ESlint配置
 
-![版本](https://img.shields.io/badge/version-1.1.2-blue.svg?cacheSeconds=2592000)
+![版本](https://img.shields.io/badge/version-1.1.1-blue.svg?cacheSeconds=2592000)
 [![文档](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/x-wink/eslint-config#readme)
 
 > TypeScript 和 Vue 项目的 ESLint 配置文件
