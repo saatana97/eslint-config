@@ -5,12 +5,16 @@
         "wink",
         "eslint",
         "eslint-config",
-        "typescript"
+        "typescript",
+        "vue"
     ],
     "author": {
-        "name": "向文可",
+        "name": "XWINK",
         "email": "1041367524@qq.com",
         "url": "https://github.com/x-wink"
+    },
+    "repository": {
+        "url": "https://github.com/x-wink/eslint-config"
     },
     "private": false,
     "files": [
