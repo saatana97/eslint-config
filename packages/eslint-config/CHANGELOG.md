@@ -1,3 +1,9 @@
+## [1.1.4](https://github.com/x-wink/eslint-config/compare/v1.1.3...v1.1.4) (2023-12-05)
+
+### Reverts
+
+-   split core ([153b261](https://github.com/x-wink/eslint-config/commit/153b261709dbeff96756939a447cabe4051710d1))
+
 ## [1.1.3](https://github.com/x-wink/eslint-config/compare/v1.1.2...v1.1.3) (2023-12-05)
 
 ### Bug Fixes
