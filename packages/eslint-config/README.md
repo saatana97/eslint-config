@@ -1,9 +1,26 @@
-# 😉 欢迎使用我的ESlint配置
-
-![版本](https://img.shields.io/badge/version-1.1.1-blue.svg?cacheSeconds=2592000)
-[![文档](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/x-wink/eslint-config#readme)
+# 😉 eslint-config
 
 > TypeScript 和 Vue 项目的 ESLint 配置文件
+
+<!-- 通用 -->
+
+![名称](https://img.shields.io/github/package-json/name/x-wink/eslint-config?style=for-the-badge)
+![版本](https://img.shields.io/github/package-json/v/x-wink/eslint-config?style=for-the-badge&filename=package.json)
+
+![关键字](https://img.shields.io/github/package-json/keywords/x-wink/eslint-config?style=for-the-badge)
+![许可](https://img.shields.io/github/package-json/license/x-wink/eslint-config?style=for-the-badge)
+
+<!-- NPM包专用 -->
+
+![下载量](https://img.shields.io/npm/dt/%40xwink/eslint-config?style=for-the-badge&logo=npm)
+![大小](https://img.shields.io/bundlephobia/minzip/%40xwink/eslint-config?style=for-the-badge&logo=npm)
+
+<!-- GITHUB信息 -->
+
+![收藏](https://img.shields.io/github/stars/x-wink/eslint-config?style=flat-square&logo=github)
+![借鉴](https://img.shields.io/github/forks/x-wink/eslint-config?style=flat-square&logo=github)
+![问题](https://img.shields.io/github/issues/x-wink/eslint-config?style=flat-square&logo=github)
+![请求](https://img.shields.io/github/issues-pr/x-wink/eslint-config?style=flat-square&logo=github)
 
 ## 💎 使用方式
 
@@ -27,31 +44,40 @@ pnpm add --save-dev @xwink/eslint-config
 
 ## 📦 进阶使用
 
+> 暂无
+
 ## 📄 待办列表
+
+> 暂无
 
 ## 🆘问题求助
 
+> 暂无
+
 ## 🎯 框架依赖
 
--   [Vite](https://cn.vitejs.dev/) 脚手架
--   [Typescript](https://www.tslang.cn) JavaScript 的超集
--   [Eslint](https://eslint.bootcss.com/) 可组装的 JavaScript 和 JSX 检查工具
--   [Prettier](https://prettier.io/) 代码格式化程序
--   [LintStaged](https://github.com/okonet/lint-staged#readme) 针对暂存的 git 文件运行检查
--   [Husky](https://typicode.github.io/husky) 改善你的提交
--   [CommitLint](https://github.com/conventional-changelog/commitlint#readme) 检查代码提交消息
+-   @typescript-eslint/eslint-plugin
+-   @typescript-eslint/parser
+-   @vue/eslint-config-prettier
+-   @vue/eslint-config-typescript
+-   eslint
+-   eslint-plugin-prettier
+-   eslint-plugin-vue
+-   prettier
+-   typescript
 
-## 👤 作者
+## 👨‍🎨 作者
 
-**向文可**
+> XWINK
 
 -   Email: 1041367524@qq.com
 -   Github: [@x-wink](https://github.com/x-wink)
+-   Homepage: https://xwink.fun
 
 ## 🤝 贡献
 
-欢迎大家随时[点击这里](https://github.com/x-wink/eslint-config/issues)为我提供贡献、问题和功能建议
+> 欢迎大家随时[点击这里](https://github.com/x-wink/libary-template/issues)为我提供贡献、问题和功能建议
 
 ## 😘 感谢支持
 
-如果觉得项目对你有帮助，就帮我点个小星星吧~ ⭐️
+> 如果觉得项目对你有帮助，就帮我点个小星星吧~ ⭐️

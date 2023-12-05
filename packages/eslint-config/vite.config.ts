@@ -19,7 +19,7 @@ export default (configEnv: ConfigEnv) => {
             lib: {
                 formats: ['cjs'],
                 fileName: (format, entryName) => `${entryName}.${format}`,
-                entry: [resolvePath('./src/index.ts'), resolvePath('./src/vue.ts')],
+                entry: [resolvePath('./src/ts.ts'), resolvePath('./src/vue.ts')],
                 name: packageJson.name.replace(/-(\w)/gi, (_, v) => v.toUpperCase()),
             },
         },
