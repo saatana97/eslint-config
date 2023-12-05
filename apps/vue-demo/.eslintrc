@@ -1,4 +1,4 @@
 {
     "root": true,
-    "extends": ["../../dist/vue.cjs"]
+    "extends": ["@xwink/eslint-config/vue"]
 }

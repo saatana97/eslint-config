@@ -1,9 +1,10 @@
 {
-    "name": "vue-demo",
+    "name": "@apps/vue",
     "private": true,
     "version": "0.0.0",
     "type": "module",
     "scripts": {
+        "lint": "npx eslint ./src/App.vue --debug",
         "dev": "vite",
         "build": "vue-tsc && vite build",
         "preview": "vite preview"
@@ -13,6 +14,7 @@
     },
     "devDependencies": {
         "@vitejs/plugin-vue": "^4.2.3",
+        "@xwink/eslint-config": "workspace:^",
         "eslint": "^8.55.0",
         "prettier": "^3.1.0",
         "typescript": "^5.0.2",

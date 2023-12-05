@@ -1,67 +1,22 @@
 {
-    "name": "@xwink/eslint-config",
-    "version": "1.1.1",
-    "keywords": [
-        "wink",
-        "eslint",
-        "eslint-config",
-        "typescript",
-        "vue"
-    ],
-    "author": {
-        "name": "XWINK",
-        "email": "1041367524@qq.com",
-        "url": "https://github.com/x-wink"
-    },
-    "repository": {
-        "url": "https://github.com/x-wink/eslint-config"
-    },
-    "private": false,
-    "files": [
-        "dist"
-    ],
+    "name": "eslint-config-monorepo",
+    "version": "1.0.0",
     "type": "module",
-    "main": "dist/index.cjs",
-    "types": "types/index.d.ts",
-    "exports": {
-        ".": {
-            "require": "./dist/index.cjs"
-        },
-        "./vue": "./dist/vue.cjs"
-    },
     "scripts": {
-        "dev": "npx eslint --debug apps/vue-demo/src/App.vue",
-        "build": "tsc && vite build",
-        "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
-        "release": "bumpp package.json --commit \"release: v%s\" --push --all --tag && pnpm run build && pnpm publish --access public",
+        "dev": "pnpm -F @apps/vue lint",
+        "build": "pnpm -F @xwink/eslint-config build",
+        "version": "pnpm -F @xwink/eslint-config version",
+        "release": "pnpm -F @xwink/eslint-config release",
         "prettier": "prettier --write ./**/*.{js,jsx,ts,tsx,vue,html,css,less,json,md}",
         "prepare": "husky install"
-    },
-    "peerDependencies": {
-        "eslint": ">=8.0.0",
-        "prettier": ">=3.0.0",
-        "typescript": ">=5.0.0"
-    },
-    "dependencies": {
-        "@typescript-eslint/eslint-plugin": "^6.9.1",
-        "@typescript-eslint/parser": "^6.9.1",
-        "@vue/eslint-config-prettier": "^8.0.0",
-        "@vue/eslint-config-typescript": "^12.0.0",
-        "eslint-plugin-prettier": "^5.0.1",
-        "eslint-plugin-vue": "^9.18.1"
     },
     "devDependencies": {
         "@commitlint/cli": "^17.4.1",
         "@commitlint/config-conventional": "^17.4.0",
-        "@types/node": "^20.8.3",
-        "bumpp": "^9.1.0",
-        "conventional-changelog-cli": "^2.2.2",
         "husky": "^8.0.3",
         "lint-staged": "^13.1.0",
         "prettier": "^3.0.3",
-        "rollup-plugin-visualizer": "^5.9.0",
-        "typescript": "^5.2.2",
-        "vite": "^4.0.0"
+        "typescript": "^5.2.2"
     },
     "lint-staged": {
         "*.{js,jsx,ts,tsx,vue,html,css,less,json,md}": [
