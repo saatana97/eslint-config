@@ -30,6 +30,7 @@
         "./vue": "./dist/vue.cjs"
     },
     "scripts": {
+        "dev": "npx eslint --debug apps/vue-demo/src/App.vue",
         "build": "tsc && vite build",
         "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
         "release": "bumpp package.json --commit \"release: v%s\" --push --all --tag && pnpm run build && pnpm publish --access public",
