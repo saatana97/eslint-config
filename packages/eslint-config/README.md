@@ -4,11 +4,11 @@
 
 <!-- 通用 -->
 
-![名称](https://img.shields.io/github/package-json/name/x-wink/eslint-config?style=for-the-badge)
-![版本](https://img.shields.io/github/package-json/v/x-wink/eslint-config?style=for-the-badge&filename=package.json)
+![名称](https://img.shields.io/github/package-json/name/x-wink/eslint-config?style=for-the-badge&filename=packages/eslint-config/package.json)
+![版本](https://img.shields.io/github/package-json/v/x-wink/eslint-config?style=for-the-badge&filename=packages/eslint-config/package.json)
 
-![关键字](https://img.shields.io/github/package-json/keywords/x-wink/eslint-config?style=for-the-badge)
-![许可](https://img.shields.io/github/package-json/license/x-wink/eslint-config?style=for-the-badge)
+![关键字](https://img.shields.io/github/package-json/keywords/x-wink/eslint-config?style=for-the-badge&filename=packages/eslint-config/package.json)
+![许可](https://img.shields.io/github/package-json/license/x-wink/eslint-config?style=for-the-badge&filename=packages/eslint-config/package.json)
 
 <!-- NPM包专用 -->
 
